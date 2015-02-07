@@ -4,8 +4,9 @@
   {vsn, "0.0.1"},
   {registered, []},
   {applications, [
-                  kernel,
                   sync,
+                  compiler,
+                  kernel,
                   stdlib
                  ]},
   {mod, { auto_syncer_app, []}},
