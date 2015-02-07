@@ -1,0 +1,13 @@
+{application, auto_syncer,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  sync,
+                  stdlib
+                 ]},
+  {mod, { auto_syncer_app, []}},
+  {env, []}
+ ]}.
